@@ -1,0 +1,49 @@
+/* Para el body utilice la estructura recomendada por ustedes para no dar largas al mismo*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    }
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #000022;
+}
+
+/* Para el "form" utilice un border-radius para así hacer más relativo el bloque de boxes del formulario*/
+/* Para el box-shadow, he utilizado los elementos hijos del box-shadow y la tabla de colores RGB para hacer uso de la sombra en el rgba*/
+form {
+    background-color: #ffffff73;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(138, 2, 131, 0.3);
+    }
+
+/* Para el "label" utilice el display como propiedad para que sea manejable en bloque*/
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+/* Para el "input" utilice valores para ajustar las dimensiones de ancho, relleno y el borde de cada caja de respuesta*/
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+    }
+
+/* Para el el botón de enviar utilice el "cursor" para que cambie justo cuando el usuario coloca el mouse en la caja de "Enviar"*/
+    input[type="submit"] {
+        background-color: #48c04c;
+        color: #060606;
+        cursor: pointer;
+    }
